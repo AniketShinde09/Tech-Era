@@ -1,0 +1,90 @@
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  width: 100%;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 40%;
+}
+
+.failure-heading {
+  font-weight: 500;
+  font-size: 35px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  padding: 0px;
+}
+
+.failure-description {
+  font-size: 17px;
+  margin: 0px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #1e293b;
+  padding: 0px;
+}
+
+.retry-button {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #fff;
+  background-color: #4656a1;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 90vh;
+}
+
+.details-container {
+  width: 65vw;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.course-image {
+  width: 40%;
+  height: 400px;
+}
+
+.course-title {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 60%;
+}
+
+.course-description {
+  font-size: 18px;
+  line-height: 1.5;
+}

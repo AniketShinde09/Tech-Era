@@ -1,0 +1,25 @@
+.course {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.course-img {
+  width: 60px;
+  height: 60px;
+}
+
+.course-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.link-item {
+  text-decoration: none;
+}
